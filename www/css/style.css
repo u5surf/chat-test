@@ -1,0 +1,23 @@
+.comment {
+ display:inline-block;
+ position: relative;
+ padding:1em;
+ margin:5px;
+ border-radius:5px;
+ background: #54aae9;
+ clear:both;
+}
+.comment:after {
+ position: absolute;
+ content: " ";
+ height: 0;
+ width: 0;
+ clear:both;
+}
+
+.half-left:after {
+ right: 100%;
+ top: 10%;
+ border-top:10px solid #54aae9;
+ border-left:10px solid transparent;
+}
